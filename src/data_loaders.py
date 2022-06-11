@@ -1,0 +1,9 @@
+from code.data import representation
+
+byt_token_trainloader = representation.byt_ponzi_trainloader
+byt_token_valloader = representation.byt_ponzi_valloader
+byt_token_testloader = representation.byt_ponzi_testloader
+
+byt_ponzi_trainloader = representation.byt_token_trainloader
+byt_ponzi_valloader = representation.byt_token_valloader
+byt_ponzi_testloader = representation.byt_token_testloader
